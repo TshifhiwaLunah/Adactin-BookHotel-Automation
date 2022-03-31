@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="BookHotel">
+        <parameter name="adactinURL" value="http://adactinhotelapp.com"/>
+        <parameter name="Browser" value="Chrome"/>
+        <classes>
+            <class name="Automation.webTests.BookHotelTest"/>
+        </classes>
+    </test>
+</suite>
